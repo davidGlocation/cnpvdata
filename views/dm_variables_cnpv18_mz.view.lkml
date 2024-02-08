@@ -587,20 +587,7 @@ view: dm_variables_cnpv18_mz {
     sql: ${TABLE}.viv_sireba ;;
   }
 
-  dimension: genero {
-    type: number
-  sql:(
-  SELECT 'Hombres' As Genero,
-  tot_hombre AS Total, cod_mpio, cod_mnzn, cod_dpto, cod_ag
-  From `glocationdatalake.cnpv2018_datos.DM_VARIABLES_CNPV18_MZ`
-  )
-  UNION ALL
-  SELECT * FROM (
-  SELECT 'Mujeres' As Genero,
-  Tot_mujere AS Total, cod_mpio, cod_mnzn, cod_dpto, cod_ag
-  From `glocationdatalake.cnpv2018_datos.DM_VARIABLES_CNPV18_MZ`
-  ) ;;
-}
+
   measure: count {
     type: count
   }
