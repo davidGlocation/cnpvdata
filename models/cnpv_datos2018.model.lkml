@@ -26,3 +26,5 @@ persist_with: cnpv_datos2018_default_datagroup
 # Each joined view also needs to define a primary key.
 
 explore: dm_variables_cnpv18_mz {}
+
+explore: new_genero {}
