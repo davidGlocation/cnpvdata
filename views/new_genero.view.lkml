@@ -3,13 +3,13 @@ view: new_genero {
   derived_table: {
     sql: SELECT * FROM (
       SELECT 'Hombres' As Genero,
-       tot_hombre AS Total, cod_mpio, cod_mnzn, cod_dpto, cod_ag
+       tot_hombre AS Total, cod_mpio, cod_mnzn, cod_dpto, cod_ag, si_asis5a, si_leer5a, noinf_leer, noinf_asis, no_leer5a, no_asis5a
       From `glocationdatalake.cnpv2018_datos.DM_VARIABLES_CNPV18_MZ`
       )
       UNION ALL
       SELECT * FROM (
       SELECT 'Mujeres' As Genero,
-      Tot_mujere AS Total, cod_mpio, cod_mnzn, cod_dpto, cod_ag
+      Tot_mujere AS Total, cod_mpio, cod_mnzn, cod_dpto, cod_ag, si_asis5a, si_leer5a, noinf_leer, noinf_asis, no_leer5a, no_asis5a
       From `glocationdatalake.cnpv2018_datos.DM_VARIABLES_CNPV18_MZ`
       ) ;;
   }
