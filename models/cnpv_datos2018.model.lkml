@@ -30,3 +30,5 @@ explore: dm_variables_cnpv18_mz {}
 explore: new_genero {}
 
 explore: etnias {}
+
+explore: educacion {}
