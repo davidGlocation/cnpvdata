@@ -34,3 +34,5 @@ explore: etnias {}
 explore: educacion {}
 
 explore: asistencia_escolar {}
+
+explore: servicios {}
