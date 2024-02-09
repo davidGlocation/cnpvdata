@@ -32,3 +32,5 @@ explore: new_genero {}
 explore: etnias {}
 
 explore: educacion {}
+
+explore: asistencia_escolar {}
