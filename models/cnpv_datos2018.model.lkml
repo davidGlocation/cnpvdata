@@ -28,3 +28,5 @@ persist_with: cnpv_datos2018_default_datagroup
 explore: dm_variables_cnpv18_mz {}
 
 explore: new_genero {}
+
+explore: etnias {}
