@@ -40,3 +40,5 @@ explore: servicios {}
 explore: mixto {}
 
 explore: nresidencial {}
+
+explore: tipvivienda {}
