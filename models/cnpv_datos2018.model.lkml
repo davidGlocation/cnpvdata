@@ -38,3 +38,5 @@ explore: asistencia_escolar {}
 explore: servicios {}
 
 explore: mixto {}
+
+explore: nresidencial {}
