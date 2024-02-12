@@ -36,3 +36,5 @@ explore: educacion {}
 explore: asistencia_escolar {}
 
 explore: servicios {}
+
+explore: mixto {}
