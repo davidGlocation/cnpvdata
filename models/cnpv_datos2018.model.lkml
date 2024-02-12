@@ -42,3 +42,5 @@ explore: mixto {}
 explore: nresidencial {}
 
 explore: tipvivienda {}
+
+explore: ocupacion {}
