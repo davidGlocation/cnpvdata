@@ -17,7 +17,7 @@ view: dm_variables_cnpv18_mz {
   }
 
   dimension: cod_dpto {
-    type: string
+    type: number
     sql: ${TABLE}.cod_dpto ;;
   }
 
@@ -27,7 +27,7 @@ view: dm_variables_cnpv18_mz {
   }
 
   dimension: cod_mpio {
-    type: string
+    type: number
     sql: ${TABLE}.cod_mpio ;;
   }
 
