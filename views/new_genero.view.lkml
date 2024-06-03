@@ -30,7 +30,7 @@ view: new_genero {
   }
 
   dimension: cod_mpio {
-    type: string
+    type: number
     sql: ${TABLE}.cod_mpio ;;
   }
 
@@ -40,7 +40,7 @@ view: new_genero {
   }
 
   dimension: cod_dpto {
-    type: string
+    type: number
     sql: ${TABLE}.cod_dpto ;;
   }
 
